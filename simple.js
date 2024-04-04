@@ -5,7 +5,7 @@ var c = -10
 
 var d = true
  var e = false
-var f = 'Hello'
+  var f = 'Hello'
 var g = "Hello"
  var h = `Ducat
   Educaion`
@@ -44,23 +44,23 @@ var g = "Hello"
 
 // simple rate of interest 
 
-// var p = Number(prompt(`Enter the Principal Amount:`))
-// var r = Number(prompt(`Enter the Rate:`))
-// var t = Number(prompt(`Enter the Time:`))
+/*var p = Number(prompt(`Enter the Principal Amount:`))
+var r = Number(prompt(`Enter the Rate:`))
+var t = Number(prompt(`Enter the Time:`))
 
-// var si = p* r* t/100
+var si = p* r* t/100
 
-// var total = p + si
-// var emi =  total / (t*12)
+var total = p + si
+var emi =  total / (t*12)
 
-// document.write(`
-// Principal Amount : ${p}<br>
-// Rate             : ${r}<br>
-// time             : ${t}<br>
-// simple Interest : ${si.toFixed(2)}
-// Total Amount : ${total.toFixed(2)})
-// EMI Amount       : ${emi.toFixed(2)}`)
-
+document.write(`
+Principal Amount : ${p}<br>
+Rate             : ${r}<br>
+time             : ${t}<br>
+simple Interest : ${si.toFixed(2)}
+Total Amount : ${total.toFixed(2)})
+EMI Amount       : ${emi.toFixed(2)}`)
+*/ 
 // seconod ex of simple rate of interest 
 
 // var p = Number(prompt("Enter the Principal Amount : "))
@@ -77,3 +77,4 @@ var g = "Hello"
 // Total Amount     : ${total.toFixed(2)}<br>
 // EMI Amount       : ${emi.toFixed(2)}
 // `)
+
