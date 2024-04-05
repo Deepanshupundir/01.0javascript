@@ -26,3 +26,86 @@
 // var b = 30 
 //  a+=b
 //  console.log(a)
+
+
+
+//  Relational operators
+
+// less then
+
+// console.log(10<20)   //true
+// console.log(10<10)   //false
+// console.log(10<5)    //false
+
+
+//  less than eqaul 
+// console.log(10<=20)   //true
+// console.log(10<=10)   //true
+// console.log(10<=5)    //false
+
+// greater than 
+// console.log(10>20)        //false
+// console.log(10>10)        //false
+// console.log(10>5)          //true
+
+
+// greater than equal
+// console.log(10>=20)       //  false    
+// console.log(10>=10)      //false
+// console.log(10>=5)      // true
+
+
+// equal
+// console.log(10==10)         //true
+// console.log(10==20)         //false
+// console.log(0=="10")      //true
+
+
+// identical
+
+//  console.log(10===10)         //true
+//  console.log(10===20)        //false
+//  console.log(10==="10")      //false
+
+
+
+
+// not equal
+// console.log(10!=10)             //false
+// console.log(10!=20)             //true
+// console.log(10!="10")           //false
+
+// not identical
+// console.log(10!==10)             //false
+// console.log(10!==20)             //true
+// console.log(10!=="10")           //true
+
+
+//logical operators
+
+//  logical And &&
+
+// console.log(true && true)       //true
+// console.log(10 && 20)          // true
+// console.log(10 && 0)          //false
+// console.log(0 && 0 )         // false
+// console.log(false && false)  // false
+
+
+// //  logical or ||
+
+// console.log(true|| true)    //true
+// console.log(10|| 10)        //true  
+// console.log(10||20)           //true
+// console.log(0||10)          //true
+// console.log(false || false)            //false
+// console.log(false||0)             //true
+
+
+
+// logical Not !
+
+// console.log(! true)    // false
+// console.log(!10)         // false
+// console.log( !false)           //true
+       

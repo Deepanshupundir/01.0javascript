@@ -2,7 +2,6 @@
 var b =10.5
 var c = -10
 
-
 var d = true
  var e = false
   var f = 'Hello'
