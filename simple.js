@@ -60,7 +60,7 @@ simple Interest : ${si.toFixed(2)}
 Total Amount : ${total.toFixed(2)})
 EMI Amount       : ${emi.toFixed(2)}`)
 */ 
-// seconod ex of simple rate of interest 
+// // seconod ex of simple rate of interest 
 
 // var p = Number(prompt("Enter the Principal Amount : "))
 // var r = Number(prompt("Enter the Rate : "))

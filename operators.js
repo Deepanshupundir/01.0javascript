@@ -28,7 +28,7 @@
 //  console.log(a)
 
 
-
+ 
 //  Relational operators
 
 // less then
@@ -107,5 +107,60 @@
 
 // console.log(! true)    // false
 // console.log(!10)         // false
-// console.log( !false)           //true
-       
+// console.log( !false)            //true
+
+// bitwise operators
+// left oper
+//  num<<n
+//  num*2**n
+//  n<<25
+//  25*2**10
+//  25*1024
+//  25600  
+
+// right operators
+
+// num>>n
+// num/2**n
+// 2500**5
+// 2500/32
+// 78
+
+
+
+
+// // conditional operators
+//  var num = Number(prompt("Enter the Number:"))
+//  num%2 == 0?document.write(`${num}is Even`) :document.write(`${num}is Odd`)
+
+
+
+
+
+
+// increment and decrement 
+
+// var a = 10 
+// var b = a++ + ++a
+// console.log(a,b)  // 12  22
+
+
+// var  a  = 10 
+// var  b = --a - a-- 
+// var  c = a-- - a-- - b-- - --b
+// console.log(a,b,c)      //  6 -2 3
+
+var a = 10
+var b = a-- + --a
+var c = --a - a++ + ++b - b++
+var d = a++ - a++ - b++ - ++b - c-- - --c
+
+console.log(a,b,c,d)// 10 22 -2 -41
+
+
+ 
+
+
+
+
+
