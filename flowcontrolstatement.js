@@ -91,7 +91,7 @@
 //     if(ch=='a' || ch=='e' || ch=='i' || ch=='o' || ch=='u')
 //     document.write(`'${c}' is lower case vowel`)
 // else
-// document.write(`'${ch}'is a lower case consonent`)
+// document.write(`'${ch}'is a lower case consonent`)   
 // } 
 
 // else if (ch>='A'&&ch<='Z'){

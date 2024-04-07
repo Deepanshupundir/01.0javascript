@@ -150,12 +150,12 @@
 // var  c = a-- - a-- - b-- - --b
 // console.log(a,b,c)      //  6 -2 3
 
-var a = 10
-var b = a-- + --a
-var c = --a - a++ + ++b - b++
-var d = a++ - a++ - b++ - ++b - c-- - --c
+// var a = 10
+// var b = a-- + --a
+// var c = --a - a++ + ++b - b++
+// var d = a++ - a++ - b++ - ++b - c-- - --c
 
-console.log(a,b,c,d)// 10 22 -2 -41
+// console.log(a,b,c,d)// 10 22 -2 -41
 
 
  
