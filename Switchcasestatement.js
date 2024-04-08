@@ -127,10 +127,62 @@
 //     console.log(`hello world ${i}`)  
 // }
 
-// let i=1                               //same method     Every put out side by for(loop) but in roles under the for(loop)(;;) is most imp
+// let i=1                               //same method     Every put out side by for(loop) but in roles under the for(loop)(;) is most imp
 // for(;i<=10;i=++i){                
 //     console.log(`hello world ${i}`)     
 
 // }
 
+
+
+// var i=1 
+// for(;;){                   //   run Infinity fun(;;)
+//     if(i>10)
+//     break
+// if(i>10)
+// break
+// console.log(`Hello world ${i}`);
+// }
+
+//  //wap to print table of any specific number
+// var num = Number(prompt("Enter the  number:"))
+// for(var i=1;i<=10;i++){
+// document.write(`${num} * ${i} =${num*i}`)
+
+// } 
+
+//WAP o calculate sum of number in a specific range
+
+// var start = Number(prompt("Enter the start number"))
+// var end  = Number(prompt("end"))
+// var sum = 0
+// for (var i=start; i<=end;i++){
+//     sum = sum +i
+// }
+// document.write(`sum = ${sum}`)
+
+ 
+//  wap    perfect number 
+
+//  var num = Number(prompt("Enter  the number"))
+//  var sum = 0
+// for (let i=1;i<=num/2;i++){
+//     if(num%i==0)
+//     sum = sum+i
+// }
+// if (sum==sum)
+// document.write(`${sum} is perfect number`)
+// else
+// document.write(`${num} is a perfect number`) 
+
+
+
+// While loop statement 
+
+var i = 1
+while(i<=10)
+{
+    console.log(`Hello world${i}`)
+i++
+}
 
