@@ -80,38 +80,57 @@
 //    }
 
 
-var month = Number(prompt("Enter the month number"))
-switch (month) {
-    case 1:
-    case 3:
-    case 5:
-case 7:
-    case 8:
-    case 9:
-    case 10:
-    case 12:
+// var month = Number(prompt("Enter the month number"))
+// switch (month) {
+//     case 1:
+//     case 3:
+//     case 5:
+// case 7:
+//     case 8:
+//     case 9:
+//     case 10:
+//     case 12:
 
-        document.write("month has 31 days")
+//         document.write("month has 31 days")
 
-        break
-    case 4:
-    case 6:
-    case 9:
-    case 11:
-        document.write("month has 30 days")
-        break
-    case 2:
-        var year = Number(prompt("Enter the year:"))
-        if (year % 400 == 0 || (year % 100 != 0 && year % 4 == 0))
+//         break
+//     case 4:
+//     case 6:
+//     case 9:
+//     case 11:
+//         document.write("month has 30 days")
+//         break
+//     case 2:
+//         var year = Number(prompt("Enter the year:"))
+//         if (year % 400 == 0 || (year % 100 != 0 && year % 4 == 0))
 
-            document.write("month has 29 Days")
-        else
-            document.write("month has 28 days")
-        break
+//             document.write("month has 29 Days")
+//         else
+//             document.write("month has 28 days")
+//         break
 
-    default:
-        document.write("Invalid choise")
+//     default:
+//         document.write("Invalid choise")
 
-}
+// }
+
+// for(var i=1;i<=10;i=++i);{                 // ++i print is 10 time
+//     console.log(`hello world ${i}`)         // when wwe use to var and add to semicoloum are work and print 
+// }
+
+// for(var i=1;i<=10;i=i++){                 // i++ print is infiniti
+//     console.log(`hello world ${i}`)
+//  }
+
+// for(let i=1;i<=10;i=++i)
+// {                // when we use  let and add to semicoloum not run program
+//     console.log(`hello world ${i}`)  
+// }
+
+// let i=1                               //same method     Every put out side by for(loop) but in roles under the for(loop)(;;) is most imp
+// for(;i<=10;i=++i){                
+//     console.log(`hello world ${i}`)     
+
+// }
 
 
