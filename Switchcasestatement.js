@@ -237,4 +237,13 @@
 
 
 
-//n
+// Nested loops statement
+
+
+// for (var num = 1; num <=20; num++){
+
+//     console.log(`Table of ${num} is `);
+//     for (var i =1; i <=10; i ++){
+//         console.log(`${num} * ${i} = ${num * i}`)
+//     }
+// }
