@@ -161,7 +161,7 @@
 // }
 // document.write(`sum = ${sum}`)
 
- 
+
 //  wap    perfect number 
 
 //  var num = Number(prompt("Enter  the number"))
@@ -179,10 +179,62 @@
 
 // While loop statement 
 
-var i = 1
-while(i<=10)
-{
-    console.log(`Hello world${i}`)
-i++
-}
+// var i = 1
+// while (i <= 10) {
+//     console.log(`Hello world${i}`)
+//     ++i
+// }    
 
+
+
+// var num = Number(prompt("Enter the number:"))
+// var sum = 0
+// while (num != 0) {
+//     let r = num%10
+//     sum = sum + r
+//     num = parseInt(num/10)
+
+// } 
+// document.write(`sum = ${sum}`)
+
+
+// do while loop statement 
+// do {
+//     var a = Number(prompt("Enter a first number"))
+//     var b = Number(prompt("Enter a second number"))
+//     var ch = prompt("Press + for Addition\nPress - for Subtraction\nPress / for Division\nPress % for Ramainder\nPress * for Mulitplication\nPress ** for Power\nEnter Your Choice : ")
+//     switch (ch) {
+//         case '+':
+//             alert(`${a} + ${b}  = ${a + b}`)
+
+//             break
+//         case '-':
+//             alert(`${a} - ${b}  = ${a - b}`)
+//             break
+
+
+//         case '*':
+//             alert(`${a} * ${b}  = ${a * b}`)
+//             break
+
+
+
+//         case '%':
+//             alert(`${a} % ${b}  = ${a % b}`)
+//             break
+
+//         case '**':
+//             alert(`${a} ** ${b}  = ${a ** b}`)
+//             break
+
+//         default:
+
+//             alert("Invalid choice")
+//     }
+
+//     ch = prompt("Pres n to Exit\nPres any other key to contine:")
+// } while(ch != 'n')
+
+
+
+//n

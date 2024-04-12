@@ -89,7 +89,7 @@
 // console.log(10 && 20)          // true
 // console.log(10 && 0)          //false
 // console.log(0 && 0 )         // false
-// console.log(false && false)  // false
+//console.log(false && false)  // false
 
 
 // //  logical or ||
@@ -142,7 +142,7 @@
 
 // var a = 10 
 // var b = a++ + ++a
-// console.log(a,b)  // 12  22
+// console.log(a,b)     // 12  22
 
 
 // var  a  = 10 
