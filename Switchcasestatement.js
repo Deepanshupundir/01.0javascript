@@ -247,3 +247,61 @@
 //         console.log(`${num} * ${i} = ${num * i}`)
 //     }
 // }
+
+
+
+
+//Pattern
+
+
+
+// for(let i =1; i<=5; i++){
+//     for(let j =1; j<=5; j++){
+//         document.write("*")           // out on window
+//     }
+//     document.write("<br>")
+// }
+
+
+
+// for(let i=1;i<=5;i++){                     
+//     for(let j=1;j<=5;j++){
+//         process.stdout.write("*")           // use to terminal code
+//     }
+//     console.log()
+// }
+
+
+// for( let i = 1 ; i <=5; i++){
+// for (let j  =1 ; j<=5; j++){
+
+//     process.stdout.write(`${j}`)
+
+// }
+// console.log()                                   //12345 five time output
+// }
+
+
+
+
+// for( let i = 1 ; i <=5; i++){
+//     for (let j  =i ; j<=i+4; j++){
+    
+//         process.stdout.write(`${j%2}`)
+    
+//     }
+//     console.log()                                   //10101 five time output
+//     }
+
+
+
+
+// for( let i = 1 ; i <=5; i++){
+//     for (let j = 1 ; j<=5; j++){
+    
+//         process.stdout.write(`${String.fromCharCode(j+64)}`)
+    
+//     }
+//     console.log()                                   //ABCDEfive time output
+//     }
+
