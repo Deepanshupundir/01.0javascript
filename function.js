@@ -152,3 +152,55 @@
 
 // }
 //  test()
+
+//  anonymons function
+
+// var test = function(){              //   Start(var test= function )  put before function
+//      console.log(" In anonymons function");
+// }
+//  test()
+ 
+//   arrow function or fat arrow function 
+
+// var test=()=>{           // var test=()=>{} this type of fat function 
+
+//     console.log("In fat function()")
+
+// }
+//  test()                  
+
+
+//  example 2
+
+// var add =( x,y)=>x+y                        // add(12,12)
+// console.log("add(12,13)")          
+
+
+
+ //  Self involed functon   
+
+//   function test (){
+//     console.log(" in  test ragular function ");
+//   } test ()
+
+//  (function test (){ 
+//     console.log(" In test regular functon");    // () under this all this called self  & one time run  
+//  })() 
+
+//  Self invoked anaymous function 
+  
+
+// ( function(){
+// console.log("In test regular function");     
+// } )()
+
+
+
+//  self invaked fat arrow function  
+// (()=> console.log("In test regular function"))
+// (function(x,y){
+//     console.log(x+y)
+
+// })
+
+
