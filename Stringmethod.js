@@ -172,7 +172,7 @@
 
 
 
-// // replaceAll
+// replaceAll
 // var  a = "education"
 
 // console.log(a);
@@ -184,15 +184,15 @@
 
 //replace()
 // var  a = "education"
-// console.log(a .replace("_","+"));
+// console.log(a.replace("_"));
 
 
 
-// split
+// split   // break the word  
 
 // var  a = "education"
-// console.log(a . split(""));
-
+// console.log(a . split(""));         // 'e';'d','u'......... 
+             
 
 
  // trim 
@@ -209,9 +209,7 @@
 //  console.log(d.length);
 
 
-
-// localcompare
-
+// localcompare  
 
 // var a = "himanshu"
 // var b = "dipanshu"
