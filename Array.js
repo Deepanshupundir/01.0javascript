@@ -90,4 +90,92 @@ join() convert an array into string and you can specify
 // console.log(a.join())         // as it is output
 // console.log(a.join(" "))   // remove ,
 // console.log(a.join(" ,"))   // add ,
-// console.log(a.join("/ "))   // add/
+// console.log(a.join("/ "))   // add /
+
+
+// Push()
+
+// var a = [10,20,30,40,50,60,70,80,90,100,]
+// console.log(a);
+// console.log(a.push(100));  
+// console.log(a);
+// console.log(a.push(10,50,100));
+// console.log(a);
+
+
+// unshift
+// var a = [10,20,30,40,50,60,70,80,90,100,]
+   
+//  console.log(a.unshift(5));
+//  console.log(a);
+//  console.log(a.unshift(1,2,3,4,5));
+//  console.log(a);`
+
+// pop
+// var a = [10,20,30,40,50,60,70,80,90,100,]
+
+// console.log(a.pop());
+// console.log(a);
+// console.log(a.pop);
+// console.log(a);
+
+
+// shift
+
+// var a = [10,20,30,40,50,60,70,80,90,100,]
+// console.log(a.shift());
+// console.log(a);
+// console.log(a.shift());
+// console.log(a);
+
+
+// splice 
+
+// var a = [10,20,30,40,50,60,70,80,90,100,]
+// console.log(a);
+// console.log(a.slice(5,7));
+// console.log(a.slice(20));
+// console.log(a.slice(-20))
+
+
+//concat
+//  var a =[10,20,30,40,50]
+// var b   =[100, 200,300,400,500]
+// var  c  =["nitin","amit","deepanshu",]
+// var d   =[true,true,false,false]
+// var  e  =a.concat(b,c,d)
+
+// console.log(e) 
+
+
+// reduce()
+
+// var a =[10,20,30,40,50,60,70,80,90,100]
+// function cheak (Prev, current){
+//     return Prev,current
+
+// 
+// console.log(a.reduce(cheak));
+
+// include()   , indexof()   , Lastindexof(),
+// var a =[10,20,30,40,50,60,70,80,90]
+// // console.log(a.indexOf(30));    //2
+// console.log(a.lastIndexOf(30));   //2
+// console.log(a.includes(30));      //true
+// console.log(a.indexOf(30));       //2
+// console.log(a.includes(30));      //true
+
+//  reverse
+
+// var a =[10,20,30,40,50]
+// a.reverse()
+// console.log(a);
+
+
+// Sort()
+//  var a =[10,20,30,40,50]
+// var  a = [ "nitin","deepanshu","himanshu"]
+//  a .sort((x,y)=>x-y)
+// console.log(a);
+
+
