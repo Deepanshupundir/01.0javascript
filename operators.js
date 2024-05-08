@@ -81,9 +81,9 @@
 // console.log(10!=="10")           //true
 
 
-//logical operators
-
-//  logical And &&
+// Type of logical operators
+ 
+//  logical And &&    return true if all binary L to R con  re true  
 
 // console.log(true && true)       //true
 // console.log(10 && 20)          // true
@@ -92,7 +92,7 @@
 //console.log(false && false)  // false
 
 
-// //  logical or ||
+// //  logical or ||    Atleaset one con are true return  
 
 // console.log(true|| true)    //true
 // console.log(10|| 10)        //true  
@@ -103,11 +103,12 @@
 
 
 
-// logical Not !
+// logical Not !    return true if con unary R to L  is false and return false if  con is true
 
 // console.log(! true)    // false
 // console.log(!10)         // false
 // console.log( !false)            //true
+
 
 // bitwise operators
 // left oper
