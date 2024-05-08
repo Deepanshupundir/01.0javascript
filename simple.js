@@ -33,6 +33,7 @@ var g = "Hello"
 
 
 
+
 //number pass  a add two number
 // var a =Number(prompt("Enter the First number:"))
 // var b =Number(prompt("Enter the Second number:"))
@@ -40,7 +41,7 @@ var g = "Hello"
 
 // document.write(`${a} + ${b} = ${sum}`)
 
-
+ 
 // simple rate of interest 
 
 /*var p = Number(prompt(`Enter the Principal Amount:`))
@@ -62,18 +63,18 @@ EMI Amount       : ${emi.toFixed(2)}`)
 */ 
 // // seconod ex of simple rate of interest 
 
-// var p = Number(prompt("Enter the Principal Amount : "))
-// var r = Number(prompt("Enter the Rate : "))
-// var t = Number(prompt("Enter the Time  : "))
-// var si = p * r * t / 100
-// var total = p + si
-// var emi = total / (t * 12)
-// document.write(`
-// Principal Amount : ${p}<br>
-// Rate             : ${r}<br>
-// Time             : ${t}<br>
-// Simple Interest  : ${si.toFixed(2)}<br>
-// Total Amount     : ${total.toFixed(2)}<br>
-// EMI Amount       : ${emi.toFixed(2)}
-// `)
+var p = Number(prompt("Enter the Principal Amount : "))
+var r = Number(prompt("Enter the Rate : "))
+var t = Number(prompt("Enter the Time  : "))
+var si = p * r * t / 100
+var total = p + si
+var emi = total / (t * 12)
+document.write(`
+Principal Amount : ${p}<br>
+Rate             : ${r}<br>
+Time             : ${t}<br>
+Simple Interest  : ${si.toFixed(2)}<br>
+Total Amount     : ${total.toFixed(2)}<br>
+EMI Amount       : ${emi.toFixed(2)}
+`) 
 
