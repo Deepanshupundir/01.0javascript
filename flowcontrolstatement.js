@@ -35,11 +35,11 @@
 //  }
 
 
-//  var num = Number(prompt("Enter the Number"))
-// if (num % 2 ==0)
-// document.write(`${num} num is even`)
-// else
-// document.write(`${num} num is odd`)
+ var num = Number(prompt("Enter the Number"))
+if (num % 2 ==0)
+document.write(`${num} num is even`)
+else
+document.write(`${num} num is odd`)
 
 
 //Nested if else statement
