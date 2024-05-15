@@ -1,35 +1,37 @@
 // Switch case statement
 
-// var a = Number(prompt("Enter a first number"))
-// var a = Number(prompt("Enter a second number"))
+//  use to make to menu based progrom
+
+// var a = Number(prompt("Enter a first number : "))
+// var b = Number(prompt("Enter a second number : "))
 // var ch = prompt("Press + for Addition\nPress - for Subtraction\nPress / for Division\nPress % for Ramainder\nPress * for Mulitplication\nPress ** for Power\nEnter Your Choice : ")
 // switch (ch) {
 //     case '+':
 //         document.write(`${a} + ${b}  = ${a + b}`)
-
 //         break
 //     case '-':
 //         document.write(`${a} - ${b}  = ${a - b}`)
 //         break
 
 
+
 //     case '*':
 //         document.write(`${a} * ${b}  = ${a * b}`)
 //         break
-
-
-
 //     case '%':
 //         document.write(`${a} % ${b}  = ${a % b}`)
 //         break
-
-//     case '**':
+//         case '**':
 //         document.write(`${a} ** ${b}  = ${a ** b}`)
 //         break
+//        case '/':
+//         document.write(`${a} / ${b}  = ${a / b}`)
+//         break
 
-//     default: document.write("Invalid choice")
+//     default:
+//          document.write("Invalid choice")
 
-//}
+// }
 
 
 
@@ -65,9 +67,11 @@
 
 //   }
 
-// //  iteration statement or loops
+//   iteration statement or loops
 
+// used to iterate or repeat number of statement n times
 // for loop
+
 // for(var i=1;i<=10;i++){
 //  console.log(`Hello world ${i}`)   
 // }
@@ -114,11 +118,11 @@
 
 // }
 
-// for(var i=1;i<=10;i=++i);{                 // ++i print is 10 time
-//     console.log(`hello world ${i}`)         // when wwe use to var and add to semicoloum are work and print 
+// for(var i=1;i<=10;i=++i);{                 // ++i print is 11 time
+//     console.log(`hello world ${i}`)         // when we use to var and add to semicoloum are work and print 
 // }
 
-// for(var i=1;i<=10;i=i++){                 // i++ print is infiniti
+// for(var i=1;i<=10;i=i++){                 // i++ print is infinity
 //     console.log(`hello world ${i}`)
 //  }
 
@@ -200,37 +204,37 @@
 
 // do while loop statement 
 // do {
-//     var a = Number(prompt("Enter a first number"))
-//     var b = Number(prompt("Enter a second number"))
-//     var ch = prompt("Press + for Addition\nPress - for Subtraction\nPress / for Division\nPress % for Ramainder\nPress * for Mulitplication\nPress ** for Power\nEnter Your Choice : ")
-//     switch (ch) {
-//         case '+':
-//             alert(`${a} + ${b}  = ${a + b}`)
+    // var a = Number(prompt("Enter a first number"))
+    // var b = Number(prompt("Enter a second number"))
+    // var ch = prompt("Press + for Addition\nPress - for Subtraction\nPress / for Division\nPress % for Ramainder\nPress * for Mulitplication\nPress ** for Power\nEnter Your Choice : ")
+    // switch (ch) {
+    //     case '+':
+    //         alert(`${a} + ${b}  = ${a + b}`)
 
-//             break
-//         case '-':
-//             alert(`${a} - ${b}  = ${a - b}`)
-//             break
-
-
-//         case '*':
-//             alert(`${a} * ${b}  = ${a * b}`)
-//             break
+    //         break
+    //     case '-':
+    //         alert(`${a} - ${b}  = ${a - b}`)
+    //         break
 
 
+    //     case '*':
+    //         alert(`${a} * ${b}  = ${a * b}`)
+    //         break
 
-//         case '%':
-//             alert(`${a} % ${b}  = ${a % b}`)
-//             break
 
-//         case '**':
-//             alert(`${a} ** ${b}  = ${a ** b}`)
-//             break
 
-//         default:
+    //     case '%':
+    //         alert(`${a} % ${b}  = ${a % b}`)
+    //         break
 
-//             alert("Invalid choice")
-//     }
+    //     case '**':
+    //         alert(`${a} ** ${b}  = ${a ** b}`)
+    //         break
+
+    //     default:
+
+    //         alert("Invalid choice")
+    // }
 
 //     ch = prompt("Pres n to Exit\nPres any other key to contine:")
 // } while(ch != 'n')
@@ -240,7 +244,7 @@
 // Nested loops statement
 
 
-// for (var num = 1; num <=20; num++){
+// for (var num = 1; num <=10; num++){
 
 //     console.log(`Table of ${num} is `);
 //     for (var i =1; i <=10; i ++){
@@ -248,6 +252,12 @@
 //     }
 // }
 
+// for (var num =1; num<=10;num++){
+//     console.log(` sum of number${num} is `);
+//     for (var i =1;i <=10; i++){
+// console.log(`${num} + ${i} = ${num +i}`);
+// }
+// }
 
 
 
@@ -267,10 +277,10 @@
 // for(let i=1;i<=5;i++){                     
 //     for(let j=1;j<=5;j++){
 //         process.stdout.write("*")           // use to terminal code
+ 
 //     }
-//     console.log()
+//     console.log();
 // }
-
 
 // for( let i = 1 ; i <=5; i++){
 // for (let j  =1 ; j<=5; j++){

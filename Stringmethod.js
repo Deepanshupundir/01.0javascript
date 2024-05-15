@@ -4,13 +4,13 @@
 // var b = "ducat"
 // var c = ` Noida 
 //  sec16
-//  It sector`
+//  IT sector`
 
 // console.log("a typeof a")
 // console.log("b typeof b")
 // console.log("c typeof c")
 
-//strinf using for loops
+// string using for loops
 // var a = "ducat is education"
 // for (let i =0; i<a .length; i++){
 //     console.log(a[i]);
@@ -24,19 +24,21 @@
 // let i =0 
 // while ( i<a .length){
 //     console.log(a[i])
-//     i++
+//    ++i
 // }
 
 
 // String using do while loop
 
 
-// var a = "ducat is education"
+// var a = "Ducat is education"
 // let  i =0 
 // do{
-//     console.log(a[i]);
-//     i++
-// } while(i<a.lenght)
+//     console.log(a[i])
+//     ++i
+// } while(i<a.length)
+    
+
 
 
 // //string using for in loop
@@ -44,22 +46,23 @@
 
 // var a = "ducat is education"
 // for(let i of a ){
-//     console.log(i);
-//}
+//     console.log(i)
+    
+// }
 
 // // string methods
 
-// charAt()
+// charAt() return charater any specific index
 
 //  var a = "Ducat educatin noida"
 // console.log(a [0]);
 // console.log(a .charAt(0));
-// console.log(a[1]);
-//  console.log(a.charAt(1));
+// console.log(a[1])
+// console.log(a.charAt(1));
 
 
-// charCodeAt 
-
+// charCodeAt     return unicode of first charater off string  
+        
 // var a = "ducat is education"
 // console.log(a. charCodeAt());
 // for(let i in a){
@@ -73,29 +76,34 @@
 
 
 // for(let i=0;i<10000;i++){
-//        
+       
 //  document.write(`${i} = ${String.fromCharCode(i)} `)
 //     }
 
 
-// // Indexof()    pasitive / nagitive
+// Indexof()    pasitive / nagitive
 // var a = "Ducat is education noida "
 // console.log(a .indexOf("i"));
 // console.log(a .indexOf("D"));
 
 
 
-// // Includes()   output true / false
+// // Includes()    cheaak the value true or false
+
+
 // var a = "Ducat is education noida "
-// console.log(a . includes("i"));
+// console.log(a . includes("i"));    // true 
+// //  Ex 2
+// var a = " India is the Powerfull contury"
+// console.log(a. includes("W" ));     // false
 
-// // lastIndexof ()   output place num 
+// lastIndexof ()   value return last num when seplling are same 
 // var a = "Ducat is education noida "
-// console.log(a .lastIndexOf("o"));
+// console.log(a .lastIndexOf("n"));         // 19 
 
 
-// search  first index value picup
-
+// search  first index value picup  
+//  value return first num when seplling are same 
 // var a = "Ducat is education noida "
 // console.log(a .search("i"));
 
@@ -209,7 +217,7 @@
 //  console.log(d.length);
 
 
-// localcompare  
+// // localcompare  
 
 // var a = "himanshu"
 // var b = "dipanshu"

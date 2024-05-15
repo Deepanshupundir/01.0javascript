@@ -35,15 +35,16 @@
 //  }
 
 
- var num = Number(prompt("Enter the Number"))
-if (num % 2 ==0)
-document.write(`${num} num is even`)
-else
-document.write(`${num} num is odd`)
+//  var num = Number(prompt("Enter the Number"))
+// if (num % 2 ==0)
+// document.write(`${num} num is even`)
+// else
+// document.write(`${num} num is odd`)
+
 
 
 //Nested if else statement
-
+//if  else within if false statemant 
 // var a = Number(prompt("Enter the First Number:"))
 // var b = Number(prompt("Enter the second Number:"))
 // var c = Number(prompt("Enter the third Number:"))
@@ -52,7 +53,7 @@ document.write(`${num} num is odd`)
 //     if (a < c)
 
 //         document.write(`${a}is smallest`)
-//     else
+//     else    
 //         document.write(`${c}is smallest`)
 
 // }

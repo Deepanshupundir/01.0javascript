@@ -41,7 +41,7 @@
 
 
 // type of function 
-// 1
+// 1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
 //   fun without return  value without parameter
 
 
@@ -55,7 +55,7 @@
 
 // }
 
-// function test(){
+// function test(){``
 //     add()
 // }
 // test()
@@ -80,7 +80,7 @@
 
 
 // 3. 
-// //function without return value with parameter
+//function without return value with parameter
 // function add(x,y){  //parameters or formal parameter
 //     var sum = x+y
 //     console.log(`sum = ${sum}`)
@@ -90,9 +90,7 @@
 //     var b = 20
 //     add(a,b)        //arguments or actual parameter
 // }
-// test() 
-
-
+// test()   
 
 // 4. function with return value with parameter
 // function add(x,y){  
@@ -110,7 +108,7 @@
 
 
 // function sumDigit(num){
-//     var sum = 0
+//     var sum =0
 //     while(num!=0){
 //         let r = num%10
 //         sum = sum+r
@@ -118,7 +116,7 @@
 //     }
 //     return sum
 // }
-// console.log(sumDigit(12345))
+// console.log(sumDigit(12))
 // console.log(sumDigit(14785))
 // console.log(sumDigit(85241))
 // console.log(sumDigit(65892))
@@ -135,20 +133,20 @@
 // test(10, 20, 30)
 // test(10, 20)
 // test(10)
-// test()
+// test()   
 
 
 // function returing an array
 
 // function test(){
-//      return[ 10 , 20,  30 ,40,50]      //   When we use [] is return value are all  
+//      return[ 10 , 20,  30 ,40,50]      //   When we use [] is pass  value are all  
 // }
 // console.log(test());
 
 // Regular function 
 
 // function test(){
-//     console.log("In Regular test ")
+//     console.log("In Regular test ") 
 
 // }
 //  test()
@@ -172,12 +170,12 @@
 
 //  example 2
 
-// var add =( x,y)=>x+y                        // add(12,12)
+// var add =( x,y)=>x+y                        // add(12,13)
 // console.log("add(12,13)")          
 
 
 
- //  Self involed functon   
+ //  Self involed functon         One time call 
 
 //   function test (){
 //     console.log(" in  test ragular function ");
@@ -201,6 +199,6 @@
 // (function(x,y){
 //     console.log(x+y)
 
-// })
+//  })
 
 

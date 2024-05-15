@@ -1,5 +1,5 @@
 //object literal
-
+     
 // let emp ={
 //     id: 1001,
 //     name:"Deepanshu Rana",
@@ -10,7 +10,7 @@
 // }
 // console.log(emp);
 
-// Empty Object Literal
+// Empty Object Literal  
 
 // var emp = {}
 // emp.id = 1001
@@ -46,7 +46,14 @@
 
 
 // Acessing object value through loops
+// let emp ={}
 
+//     emp.id = 1001
+// emp["name"] = 'Deepanshu Rana, Any '
+// emp['dsg'] = " Web developer"
+// emp [ `salary`] =  50000
+// emp ["city"] =  `Noida`
+// emp ["State"] = "UP"
 //  for(let key in emp){
 //     console.log(`${key}=${emp[key]}`);
 // }         
@@ -98,11 +105,12 @@
 // key: "value1",
 // key: "value2",
 // key: "value3",
+
 // fun1: function show(){
 //     console.log("In Show function of obj");
 // },
 // fun2:function display(){
-//     console.log("In display function of obj");
+//    console.log("In display function of obj");
 // },
 
 // fun3: function(){
@@ -110,10 +118,10 @@
 // },
 // fun4:()=>console.log("In fat arrow function of obj"),
 // fun5(){
-//     console.log("In Regular function of obj");
-// }
-
-// }
+//   console.log("In Regular function of obj");
+// } 
+      
+// } 
 // console.log(obj);
 // obj. fun1()
 // obj. fun2()
@@ -121,44 +129,42 @@
 // obj. fun4()          
 // obj. fun5()
 
+// var emp = {
 
+//     id: 1001,
+//     name: "Deepanshu pundir",
+//     dsg: "web developer",
+//     basic: 50000,
+//     calculation() {
+//         this.da = this.basic * 5 / 100
+//     Tthis.to = this.basic * 8 / 100
+//         this.ho = this.basic * 10 / 100
+//         this.hro = this.basic * 15 / 100
 
-var emp = {
+//         this.gross = this.basic + this.da + this.to + this.ho + this.hro
 
-    id: 1001,
-    name: "Deepanshu pundir",
-    dsg: "web developer",
-    basic: 50000,
-    calculation() {
-        this.da = this.basic * 5 / 100
-        this.to = this.basic * 8 / 100
-        this.ho = this.basic * 10 / 100
-        this.hro = this.basic * 15 / 100
+//         this.itax = this.gross * 10 / 100
+//         this.net = this.gross - this.itax
 
-        this.gross = this.basic + this.da + this.to + this.ho + this.hro
+//     },
 
-        this.itax = this.gross * 10 / 100
-        this.net = this.gross - this.itax
-
-    },
-
-    display() {
-        console.log(`
-    Id  :  ${this.id}
-     Name :    ${this.name}
-     Designation :${this.dsg}
- Basic salary :${this.basic}
-      da :${this.da}
-      to:${this.to}
-      ho:${this.ho}
-      hro:${this.hro}
-      Gross salary${this.gross}:
-      Income Tax :${this.itax}
-       Net salary:${this.net}
-    `);
-    }
-}
-emp.calculation()
-emp.display()
+//     display() {
+//         console.log(`
+//     Id  :  ${this.id}
+//      Name :    ${this.name}
+//      Designation :${this.dsg}
+//  Basic salary :${this.basic}
+//       da :${this.da}
+//       to:${this.to}
+//       ho:${this.ho}
+//       hro:${this.hro}
+//       Gross salary${this.gross}:
+//       Income Tax :${this.itax}
+//        Net salary:${this.net}
+//     `);
+//     }
+// }
+// emp.calculation()
+// emp.display()
 
 
