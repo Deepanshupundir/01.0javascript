@@ -15,7 +15,6 @@
 // console.log(emp);  
 
 
-
 // var emp = new Map([
 
 //     ["deepak", 1001],
@@ -40,12 +39,13 @@
 // ['dhiru',1007],
 //     ['dada',108],
 // ])
-// console.log(emp)
+// console.log(emp)       
 // emp.set("deep",1001)
 // emp.set("deepak",1012) // convert items by set ()
-
-// console.log(emp);
-// console.log(emp.size);
-// console.log(emp.keys());
-// console.log(emp.values());
-// console.log(emp.entries());
+                                
+// console.log(emp);             
+// console.log(emp.size);             // 7
+// console.log(emp.keys());          // deep , deepak ,deepanshu 
+// console.log(emp.values());           // 100, 1003 .........
+// console.log(emp.entries());              // [Map entries]  show on 
+ 

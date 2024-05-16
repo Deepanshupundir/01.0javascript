@@ -161,25 +161,72 @@ join() convert an array into string and you can specify
 // console.log(a.reduce(cheak));
 
 // include()   , indexof()   , Lastindexof(),
-// var a =[10,20,30,40,50,60,70,80,90]
-// console.log(a.indexOf(30));    //2
-// console.log(a.lastIndexOf(50));   //2
+
+// var a=[10,20,30,40,50,60,70,80,90]
+
+// console.log(a.indexOf(30));       //2
+// console.log(a.lastIndexOf(90));   //8
 // console.log(a.includes(30));      //true
-// console.log(a.indexOf(40));       //2
+// console.log(a.indexOf(40));       //3
 // console.log(a.includes(50));      //true
 
-//  reverse
+   
+//  find()   return only  first value of an array
+// var array =[222,300,400,500,600]
+// function age(my){
+//     return my
+// }
+// console.log(array.find(age));
 
-// var a =[10,20,30,40,50]
+
+
+// //  filter() 
+// // filter the value 
+// var array=[100,20,30,40,50]
+// function age(my){
+// return my%4==0
+// }
+// console.log(array.filter(age))
+
+// includes()
+// return  value true or false
+// var array=[100,20,30,40,50]
+// function age(my){
+// return my
+// }
+// console.log(array.includes(100))
+
+//  forEach()
+// var num = [1, 2, 3, 4, 5];
+
+// num.forEach(function(num) {
+//   console.log(num);
+// });
+
+
+//  reverse                                   
+//  reverse array value 
+// var a =[10,20,30,40,50]                   
 // a.reverse()
 // console.log(a);
 
 
 // Sort()
-//  var a =[10,20,30,40,50]
-// var  b = [ "nitin","deepanshu","himanshu"]
-//  a .sort((x,y)=>x-y)
-// console.log(a,b);
+//  var a =[4,3,34,35,2,234,23,5,4,6,57,4,4,53,324,3,3,1,7,0]
+// // var  b = [ "nitin","deepanshu",'himanshu']
+//  var c = a.sort()
+// console.log(c);
+
+// function xyz(){
+//     const a=10
+//     const b=10
+//     var c= a+b
+// //    console.log(c);
+// return c
+// }
+//  xyz()
+// console.log(s)
+
 
 
 
