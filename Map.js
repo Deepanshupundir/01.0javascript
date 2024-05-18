@@ -38,6 +38,7 @@
 // ['deepika',1006],
 // ['dhiru',1007],
 //     ['dada',108],
+//     ['dada',109],
 // ])
 // console.log(emp)       
 // emp.set("deep",1001)
@@ -48,4 +49,6 @@
 // console.log(emp.keys());          // deep , deepak ,deepanshu 
 // console.log(emp.values());           // 100, 1003 .........
 // console.log(emp.entries());              // [Map entries]  show on 
+// console.log(emp.entries());              // [Map entries]  show on 
+ 
  
