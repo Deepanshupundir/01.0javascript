@@ -40,9 +40,13 @@
 // Array using for loops
 // var a = [ 10, 20, 30, 40, 50]
 // for(let i=0;i<a.length;i++){
-// console.log(a[i]);   
+// console.log(a[o]);   
 // }
 
+// var a = [ 10, 20, 30, 40, 50]
+// for(let o=0;o<a.length;o++){
+// console.log(a[o]);   
+// }
 
 // Array using while loops
 
@@ -54,7 +58,7 @@
 // }
 
 //Array using do while loop
- 
+
 // var a = [10, 20, 30, 40, 50]
 //  let i =0
 //  do{
@@ -63,7 +67,7 @@
 //  }while(i<a.length)
 
 
-    // Array using for in loop
+// Array using for in loop
 
 // var a = [10, 20, 30, 40, 50]
 // for (let i in a){
@@ -96,21 +100,22 @@ join() convert an array into string and you can specify
 
 
 // Push()
+//  Add one by one
 
 // var a = [10,20,]
 // console.log(a);
-// console.log(a.push(100));  
+// console.log(a.push(100));     3[10,20,100]
 // console.log(a);
-// console.log(a.push(10,50,100));
+// console.log(a.push(10,50,100)); 6[10,20,100,10,50,100]
 // console.log(a);
 
 
 // unshift
 // var a = [10,20,30,40,50,60,70,80,90,100,]
-   
-//  console.log(a.unshift(5));
+
+//  console.log(a.unshift(5));    //  [5,10,20,30,40,50,60,70,80,90,100,]
 //  console.log(a);
-//  console.log(a.unshift(1,2,3,4,5));
+//  console.log(a.unshift(1,2,3,4,5));   // [1,2,3,4,5,5,10,20,30,40,50,60,70,80,90,100,]]
 //  console.log(a);
 
 // pop
@@ -118,12 +123,12 @@ join() convert an array into string and you can specify
 
 // console.log(a.pop());             
 // console.log(a);
-// console.log(a.pop);
+// console.log(a.pop());
 // console.log(a);
 
 
 // shift
-
+//  first value pop (remove) and all are print
 // var a = [10,20,30,40,50,60,70,80,90,100,]
 // console.log(a.shift());
 // console.log(a);
@@ -131,7 +136,7 @@ join() convert an array into string and you can specify
 // console.log(a);
 
 
-// splice 
+// slice 
 
 // var a = [10,20,30,40,50,60,70,80,90,100,]
 // console.log(a);
@@ -170,7 +175,7 @@ join() convert an array into string and you can specify
 // console.log(a.indexOf(40));       //3
 // console.log(a.includes(50));      //true
 
-   
+
 //  find()   return only  first value of an array
 // var array =[222,300,400,500,600]
 // function age(my){
@@ -180,13 +185,13 @@ join() convert an array into string and you can specify
 
 
 
-// //  filter() 
-// // filter the value 
+//  filter() 
+// filter the value 
 // var array=[100,20,30,40,50]
 // function age(my){
 // return my%4==0
 // }
-// console.log(array.filter(age))
+// console.log(array.filter(age))   // 100,20,40
 
 // includes()
 // return  value true or false
@@ -197,36 +202,32 @@ join() convert an array into string and you can specify
 // console.log(array.includes(100))
 
 //  forEach()
-// var num = [1, 2, 3, 4, 5];
+// var num = [1, 2, 3, 4, 5];           // 1
+//                                        //2
+// num.forEach(function (num) {         //3
+//     console.log(num);                 //4
+// });                                   //5
 
-// num.forEach(function(num) {
-//   console.log(num);
-// });
 
-
-//  reverse                                   
-//  reverse array value 
-// var a =[10,20,30,40,50]                   
+//  reverse
+//  reverse array value
+// var a =[10,20,30,40,50]   
 // a.reverse()
 // console.log(a);
 
 
 // Sort()
-//  var a =[4,3,34,35,2,234,23,5,4,6,57,4,4,53,324,3,3,1,7,0]
-// // var  b = [ "nitin","deepanshu",'himanshu']
-//  var c = a.sort()
+//  var a =[4,3,34,35,2,234,23,5,4,6,57,4,4,53,324,3,3,1,7]
+// var  b = [ "nitin","deepanshu",'himanshu']
+//  var c = a + b.sort()
 // console.log(c);
 
 // function xyz(){
 //     const a=10
 //     const b=10
 //     var c= a+b
-// //    console.log(c);
+//    console.log(c);
 // return c
 // }
 //  xyz()
-// console.log(s)
-
-
-
-
+// console.log()

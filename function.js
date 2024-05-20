@@ -13,6 +13,7 @@
 // console.log("Back to global main scope");
 
 
+
 //   Global Execution Context :  Program Area outside any function
 
 //function call within function
@@ -36,6 +37,35 @@
 //     console.log("In Main  Globle scope");
 //     fun1()
 //     console.log("back ro main globle scope");
+
+
+//  function  fun1 (){
+//     console.log("In  fun1 function ");
+ 
+//    fun2 ()
+//     console.log("In back to fun2 function");
+//   }
+ 
+// function fun2(){
+//     console.log("In fun2 function");
+
+//      fun3()
+//      console.log("In back to fun3 function");
+// }
+
+//  function fun3(){
+//     console.log("In fun3 function");
+//  }
+//  console.log(" mian globle scope");
+//  fun1()
+//     console.log("Back to main globle scope");
+ 
+
+//  function fun1(){
+//     console.log("In fun1 function");
+    
+//  }
+
 
 
 

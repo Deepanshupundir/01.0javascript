@@ -7,7 +7,6 @@
 
 //     display(){
 //         console.log("In display()of test class");
-//     }
 // }
 
 // var a = new Test()
@@ -31,18 +30,18 @@
 // a.setData(10,20)
 // a.display()
 // y.display()
-//
+
 
 //  class magical
 //   two number   add and Multiple are same is called class magical
-// class magical {
+// class magical {           
 //     SetData(x) {
 //         this.n = x
 //     }
-//     check() {
-//         let num = this.n
-//         let sum = 0
-//         let rev = 0
+//     check() {            
+//         let num = this.n 
+//         let sum = 0 
+//         let rev = 0 
 //         while (num !== 0) {
 //             let r = (num % 10)
 //             sum = sum + r
@@ -74,12 +73,4 @@
 // x.SetData(45890)
 // x.check()
 
-// x.SetData(1729)
-// x.check()
-
-// x.SetData(1279)
-// x.check()
-
-// x.SetData(1458)
-// x.check()
 

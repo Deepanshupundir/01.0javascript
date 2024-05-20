@@ -170,11 +170,11 @@
 //     constructor(){   // constructor are not use in  child  class but  when we use in  child with super
 //         super()
 //         console.log("In constrating child class");
-        
+
 //     }
- 
+
 //  show2(){
-//          console.log("In show()cof child class" );
+//          console.log("In show()of child class" );
 //  }
 //  }
 //  var obj = new child()
@@ -183,6 +183,92 @@
 
 
 
+// Himerancail inheritance : when  a single parent class  inherit  by more than  one child class
+//   calucaltion  of two num
+// class simple {         
+//     constructor(a, b) {
+//         this.a = a
+//         this.b = b
+//     }
+// }
+// class Add extends simple {
+
+//     display() {
+//         console.log(`${this.a}+${this.b}= ${this.a+this.b}`);
+//     }
+// }
+
+// class sub extends simple {
+
+//     display() {
+//         console.log(`${this.a}-${this.b}=${this.a-this.b}`);
+//     }
+// }
+
+// class multiple extends simple {
+
+//     display() {
+//         console.log(`${this.a}*${this.b} =${this.a*this.b}`);
+//     }
+// }
 
 
 
+// class  divide extends simple {
+
+//     display() {
+//         console.log(`${this.a}%${this.b} =${this.a%this.b}`);
+//     }
+// }
+
+
+// var obj1 = new Add(15, 12)
+// var obj2= new sub(15, 32)
+// var obj3= new multiple(15, 2)
+// var obj4= new divide(15, 2)
+// obj1.display()
+// obj2.display()
+// obj3.display()  
+// obj4.display()
+
+
+//     single inheritance :  when a  single child class inherit
+
+//  class parent{
+//      constructor(a,b){
+//        this.a=a
+//        this.b=b
+//      }
+//  }
+
+//  class chlid extends parent{
+//     display(){
+//         console.log(`${this.a}+${this.b} = ${this.a+this.b}`);
+//     }
+//  }
+//  var obj = new  chlid(10,30)
+//  obj.display()
+
+ 
+// multilevel inheritance :  when a child class inherit other class
+
+
+//  class parent{
+//     constructor(){
+//          this.a =[10,20,30,40,50]
+//     }
+//  }
+//  class child extends parent{
+//     display(){
+//         console.log(this.a);
+//     }
+//  }
+//  class child2 extends child{
+//     reverse(){
+//         this.reverse
+//         console.log("this ");
+//     }
+//  }
+//   var x = new child2()
+//   console.log("orignal arru");
+//   x.display()
