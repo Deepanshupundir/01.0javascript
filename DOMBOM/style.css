@@ -1,0 +1,24 @@
+*{
+    margin: 0%;
+    
+}
+
+h1,h3{
+    font-style: italic;
+
+    font-weight: 0;
+}
+
+p{
+    
+    background:gray;
+    font-style:oblique;
+
+}
+:root{
+    background-color: rgb(121, 139, 187);
+}
+
+
+
+
