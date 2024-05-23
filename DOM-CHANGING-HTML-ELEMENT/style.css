@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.center{
+    width: 80%;
+    height: 50%;
+
+}
+.center button{
+    border-radius: 10px;
+    width: 100%;
+
+    background-color: aqua;
+    color:yellowgreen;
+    padding: 10px;
+}
+.center p {
+    border-radius: 10px;
+    border-width: 10px;
+    background-color:rgb(0, 255, 64);
+    color: white;
+    text-align: justify;
+    font-size:20px;
+    padding: 10px;
+
+}
