@@ -1,0 +1,12 @@
+*{
+    margin: 0%;
+}
+.main{
+    width: 50vw;
+    height: 50vh;
+    background-color: aquamarine;
+    color: navy;
+    display: grid;
+    place-items: center;
+    font-size: 30px;
+}

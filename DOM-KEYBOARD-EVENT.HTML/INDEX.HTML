@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="center">
+            <h3 >Keyboard Events Example</h3>
+            <h3 id="hname">Name : </h3>
+            <h3 id="hemail">Email : </h3>
+            <h3 id="hphone">Phone : </h3>
+            <h3 id="hdsg">Designation : </h3>
+            <h3 id="hsalary">Salary : </h3>
+            <h3 id="hcity">City : </h3>
+            <h3 id="hstate">State : </h3>
+            <form onsubmit="postData(event)">
+            <h2 align="center">Keyboard Event</h2>
+            <input type="text" required name="name" id="name" placeholder="Full name " onfocus="fun1(event)"
+                onblur="fun2(event)" onchange="fun3(event)">
+            <input type="email" required name="email" id="email" placeholder="email Address " onfocus="fun1(event)"
+                onblur="fun2(event)" onchange="fun3(event)">
+            <input type="text" required name="phone" id="phone" placeholder="phone number " onfocus="fun1(event)"
+                onblur="fun2(event)" onchange="fun3(event)">
+            <input type="text" required name="dsg" id="dsg" placeholder="designation " onfocus="fun1(event)"
+                onblur="fun2(event)" onchange="fun3(event)">
+            <input type="text" required name="salary" id="salary" placeholder="salary " onfocus="fun1(event)"
+                onblur="fun2(event)" onchange="fun3(event)">
+            <input type="text" required name="city" id="city" placeholder="city name " onfocus="fun1(event)"
+                onblur="fun2(event)" onchange="fun3(event)">
+            <input type="text" required name="state" id="state" placeholder="state name " onfocus="fun1(event)"
+                onblur="fun2(event)" onchange="fun3(event)">
+            <button type="submit">Submit</button>
+        </form>
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="keyboard.js"></script>
+</body>
+
+</html>
