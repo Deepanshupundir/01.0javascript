@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    background-color: aquamarine;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.center{
+   width: 80%;
+   height: 80%; 
+   color:rgb(226, 43, 177);
+   margin-left: 300px;
+   
+}
+
+.First{
+    width: 100%;
+
+}
+
+.Second::-webkit-scrollbar{
+    background-color: blue;
+    display: none;
+
+}
+.Second p{
+
+    background-attachment: fixed;
+    
+}
+
+
+
+.material-symbols-outlined{
+cursor: pointer;
+
+}
